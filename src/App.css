@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.swiper-slide{
+  max-width: 267px !important;
+}
+.swiper-wrapper{
+  display: flex;
+  justify-content: left !important;
+}
+
