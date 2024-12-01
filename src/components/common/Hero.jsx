@@ -7,11 +7,11 @@ import Button from '../about/Button'
 const HeroSec = () => {
     const location = useLocation().pathname;
     return (
-        <div>
+        <div className=''>
             <div>
                 <div className={`${location === "/"
-                    ? "flex items-center justify-center bg-red-500 min-h-screen flex-col rounded-b-[30px] overflow-hidden"
-                    : "flex items-center justify-center bg-[#01A4FFBD] min-h-screen flex-col"
+                    ? "flex items-center px-4 justify-center bg-red-500 min-h-screen flex-col rounded-b-[30px] overflow-hidden"
+                    : "flex items-center px-4 justify-center bg-[#01A4FFBD] min-h-screen flex-col"
                     }`}>
                     <Heading HeroHeading='Lorem ipsum dolor sit amet consectetur. Sceleris' />
                     <Text cardPara='Lorem ipsum dolor sit amet consectetur. Id mattis at tristique duis.' />

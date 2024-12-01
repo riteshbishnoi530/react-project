@@ -4,8 +4,8 @@ function Footer() {
     const location = useLocation().pathname;
     return (
         <div className={`${location === "/"
-            ? "pt-[78px] bg-[#1E1E1E] flex-col rounded-t-3xl"
-            : "pt-[78px] bg-[#002B43] "
+            ? "pt-[78px] max-md:pt-10 max-sm:pt-5 px-4 bg-[#1E1E1E] flex-col rounded-t-3xl"
+            : "pt-[78px] max-md:pt-10 max-sm:pt-5 px-4 bg-[#002B43] "
         }`}>
             <div className='flex max-w-[1140px] mx-auto flex-wrap max-lg:gap-10'>
                 <div className='w-1/2 max-lg:w-full'>

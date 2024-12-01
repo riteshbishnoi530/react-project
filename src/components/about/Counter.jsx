@@ -9,9 +9,9 @@ const Counter = () => {
         setValue(value - 1);
     }
     return (
-        <div className='flex justify-between max-w-[1140px] mx-auto py-20 flex-wrap max-lg:justify-center max-lg:gap-10 px-4'>
+        <div className='flex justify-between max-w-[1140px] mx-auto py-20 max-md:py-10 max-sm:py-5 flex-wrap max-lg:justify-center max-lg:gap-10 px-4'>
             <div className='items-center flex'>
-            <div className='flex gap-[97px] items-center justify-center bg-[#1EABF8] border-[5px] border-black max-w-[402px] py-9 px-[60px] rounded-[50px]'>
+            <div className='flex gap-[97px] max-sm:gap-10 items-center justify-center bg-[#1EABF8] border-[5px] border-black max-w-[402px] py-9 max-sm:py-5 px-[60px] max-sm:px-10 rounded-[50px]'>
                 <button className='text-6xl' onClick={addValue}>+</button>
                 <p className='text-6xl'>{value}</p>
                 <button className='text-6xl' onClick={removeValue}>-</button>

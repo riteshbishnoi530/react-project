@@ -8,7 +8,7 @@ export const NextArrow = (props) => {
   const { onClick } = props;
   return (
     <div
-      className="transform translate-x-[600px] translate-y-5 opacity-70 text-6xl text-[#0A0A0A] rounded-full w-8 h-8 flex items-center justify-center cursor-pointer"
+      className="absolute right-[45%] max-lg:right-[40%] opacity-70 text-6xl text-[#0A0A0A] rounded-full w-8 h-8 flex items-center justify-center cursor-pointer"
       onClick={onClick}
     >
       →
@@ -20,7 +20,7 @@ export const PrevArrow = (props) => {
   const { onClick } = props;
   return (
     <div
-      className="text-6xl transform translate-y-[313px] opacity-70 translate-x-[520px] text-[#0A0A0A] rounded-full w-8 h-8 flex items-center justify-center cursor-pointer"
+      className="text-6xl absolute left-[45%] max-lg:left-[40%] opacity-70 -bottom-8 text-[#0A0A0A] rounded-full w-8 h-8 flex items-center justify-center cursor-pointer"
       onClick={onClick}
     >
       ←
@@ -54,7 +54,7 @@ function Slick() {
   };
 
   return (
-    <div className="slider-container max-w-[1140px] mx-auto py-8 flex items-center justify-center overflow-hidden">
+    <div className="slider-container relative max-w-[1140px] mx-auto py-8 flex items-center justify-center overflow-hidden">
       <div className="w-full max-w-7xl">
         <Slider {...settings}>
           {SLIDER_CARDS.map((data, i) => (

@@ -16,7 +16,7 @@ import { FreeMode, Pagination, Autoplay } from 'swiper/modules';
 
 export default function App() {
   return (
-    <div className='py-[140px] px-4'>
+    <div className='py-[140px] max-lg:py-20 max-md:py-14 max-sm:py-8 px-4'>
       <div className='mb-11'>
         <p className='text-center text-[40px] font-semibold mb-5'>Lorem ipsum dolor sit amet</p>
         <p className='text-center opacity-70'>Lorem ipsum dolor sit amet consectetur. Amet varius in enim.</p>
