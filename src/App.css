@@ -9,3 +9,9 @@
 .parent-card :hover svg path{
   fill: #173EAD;
 }
+.parent-card :hover .month{
+  color: white !important;
+}
+.parent-card :hover .sub-heading{
+  color: white !important;
+}
