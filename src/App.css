@@ -6,3 +6,6 @@
   gap:24px !important;
 }
 
+.parent-card :hover svg path{
+  fill: #173EAD;
+}
