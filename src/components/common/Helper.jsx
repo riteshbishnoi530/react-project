@@ -99,3 +99,18 @@ export const SliderTwo_Card = [
 
     },
 ];
+
+export const TEXT_CARD =[
+    {
+        heading: 'First card',
+        para: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima fuga sapiente tempora blanditiis delectus excepturi commodi, earum ex molestias totam.'
+    },
+    {
+        heading: 'Second card',
+        para: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima fuga sapiente tempora blanditiis delectus excepturi commodi, earum ex molestias totam.'
+    },
+    {
+        heading: 'Third card',
+        para: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima fuga sapiente tempora blanditiis delectus excepturi commodi, earum ex molestias totam.'
+    }
+]
