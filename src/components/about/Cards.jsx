@@ -4,7 +4,7 @@ import { CARDS } from "../common/Helper";
 
 function Cards() {
   return (
-    <div>
+    <div className='max-w-[1175px] mx-auto'>
        <p className='text-center text-[40px] font-semibold mb-10 max-md:mb-8 max-sm:mb-5'>Lorem ipsum</p>
       <div className='flex gap-6 justify-center flex-wrap px-4'>
         {CARDS.map((data, i) => (

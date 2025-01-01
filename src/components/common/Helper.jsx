@@ -5,17 +5,20 @@ export const SLIDER_CARDS =[
     {
         imgSrc: partner,
         heading: 'Lorem ipsum',
-        paragraph: 'We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers. Read more',
+        paragraph: 'We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.',
+        button: 'Read more'
     },
     {
         imgSrc: partner,
         heading: 'Lorem ipsum',
-        paragraph: 'We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers. Read more',
+        paragraph: 'We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.',
+        button: 'Read more'
     },
     {
         imgSrc: partner,
         heading: 'Lorem ipsum',
-        paragraph: 'We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers. Read more',
+        paragraph: 'We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.',
+        button: 'Read more'
     }
 ]
 
@@ -107,10 +110,29 @@ export const TEXT_CARD =[
     },
     {
         heading: 'Second card',
+        
         para: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima fuga sapiente tempora blanditiis delectus excepturi commodi, earum ex molestias totam.'
     },
     {
         heading: 'Third card',
+        
         para: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima fuga sapiente tempora blanditiis delectus excepturi commodi, earum ex molestias totam.'
+    }
+]
+export const COUNTER =[
+    {
+        heading: '50%',
+        bgColor: "#85B6A6",
+        para: 'Reduction in Pain'
+    },
+    {
+        heading: '90%',
+        bgColor: "#82B2C2",
+        para: 'Increase In-Patient Satisfaction'
+    },
+    {
+        heading: '60%',
+        bgColor: "#076787",
+        para: 'Faster Recovery'
     }
 ]

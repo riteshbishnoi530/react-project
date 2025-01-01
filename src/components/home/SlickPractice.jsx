@@ -28,7 +28,7 @@ export const PrevArrow = (props) => {
   );
 };
 
-function Slick() {
+function SlickPractice() {
   const settings = {
     infinite: true,
     speed: 500,
@@ -64,7 +64,7 @@ function Slick() {
             >
                 <SlickIcon/>
               <h2 className="text-2xl font-semibold text-black mt-8">{data.heading}</h2>
-              <p>{data.paragraph}</p>
+              <p className="text-base font-light">{data.paragraph} <a href="#" className="font-semibold text-[#FF5501]">{data.button}</a></p>
             </div>
           ))}
         </Slider>
@@ -73,4 +73,4 @@ function Slick() {
   );
 }
 
-export default Slick;
+export default SlickPractice;

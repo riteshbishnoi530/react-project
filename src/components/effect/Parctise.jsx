@@ -12,9 +12,10 @@ const Parctise = () => {
     })
 
     return (
-        <>
-            <h2 className='text-center font-semibold text-2xl text-red-800 py-10'><span className='text-black'>Counter</span> {count}</h2>
-        </>
+        <div>
+            <h3>counter</h3>
+            <h3 className='text-center font-semibold text-2xl text-red-800 py-10'><span className='text-black'>Counter</span> {count}</h3>
+        </div>
     )
 }
 

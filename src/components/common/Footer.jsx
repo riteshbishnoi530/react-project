@@ -9,10 +9,10 @@ function Footer() {
             }`}>
             <div className='flex max-w-[1140px] mx-auto flex-wrap max-lg:gap-10 px-5'>
                 <div className='w-1/2 max-lg:w-full'>
-                    <p className=  {`${location === "/"
-                        ? "text-[38px] text-[#FF5501] font-bold"
-                        : "text-[38px] text-[#007AFF] font-bold"
-                        }`}>Logo <span className='text-white'>Here</span></p>
+                    <a href='/' className=  {`${location === "/"
+                        ? "text-[#FF5501]"
+                        : "text-[#007AFF]"
+                        } text-[38px] font-bold`}>Logo <span className='text-white'>Here</span></a>
                     <p className='max-w-[431px] opacity-70 mt-4 text-white'>Lorem ipsum dolor sit amet consectetur. Metus mattis cum sem integer est. Amet fringilla tristique hendrerit vestibulum diam est penatibus interdum imperdiet. Duis ut libero suspendisse arcu erat. Pulvinar in est.</p>
                 </div>
                 <div className='w-1/2 flex max-lg:w-full'>
@@ -37,7 +37,9 @@ function Footer() {
                 </div>
             </div>
             <div className='w-full h-[1px] bg-white opacity-40 mt-14'></div>
-            <p className='text-center py-6 text-white opacity-70'>CopyrightÂ©2024 (Logo) All Rights Reserved.</p>
+            <p className="text-center py-6 text-white opacity-70">
+  Copyright©{new Date().getFullYear()} (Logo) All Rights Reserved.
+</p>
         </div>
     )
 }

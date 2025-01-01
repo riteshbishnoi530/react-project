@@ -12,7 +12,7 @@ function UseEffectPractice() {
         </div>
       ))}
     </div>
- 
+
     </div>
   )
 }

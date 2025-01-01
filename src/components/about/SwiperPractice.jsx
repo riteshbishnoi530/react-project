@@ -36,7 +36,7 @@ export default function App() {
         modules={[FreeMode, Pagination, Autoplay]}
         className="mySwiper"
         breakpoints={{
-          640: {
+          0: {
             slidesPerView: 1,
             spaceBetween: 10,
           },
@@ -45,6 +45,10 @@ export default function App() {
             spaceBetween: 20,
           },
           1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          1200: {
             slidesPerView: 4,
             spaceBetween: 30,
           },
