@@ -24,10 +24,10 @@ const CustomTable = () => {
                                             {COMPETITION_LIST.map((obj, i) => (
                                                 <div key={i} className="flex gap-2  border-t border-black">
                                                     <p className={`ps-2 font-semibold  text-white border-black py-4 w-[95px] max-sm:w-[75px] ${i === 0 ? 'me-[23px] text-sm' : i === 1 ? 'me-[23px] text-sm' : 'me-[23px] text-sm'}`}>{obj.brand}</p>
-                                                    <p className={`text-center ${i === 5 ? 'rounded-b-lg text-[8px] px-[15px] font-normal h-[107px]' : ''} py-4 flex bg-white items-center justify-center max-sm:w-[85px] w-[95px]`}>{obj.rift}</p>
-                                                    <p className={`text-center ${i === 5 ? 'rounded-b-lg text-[8px] px-[15px] font-normal h-[107px]' : ''} py-4 bg-white flex items-center justify-center max-sm:w-[85px] w-[95px]`}>{obj.taxscout}</p>
-                                                    <p className={`text-center ${i === 5 ? 'rounded-b-lg text-[8px] px-[15px] font-normal h-[107px]' : ''} py-4 bg-white flex items-center justify-center max-sm:w-[85px] w-[95px]`}>{obj.coconut}</p>
-                                                    <p className={`text-center ${i === 5 ? 'rounded-b-lg text-[8px] px-[15px] font-normal h-[107px]' : ''} bg-lightGreen py-4 flex items-center justify-center bg-[#56E3CB] max-sm:w-[85px] w-[95px]`}>{obj.pie}</p>
+                                                    <p className={`text-center ${i === 5 ? 'rounded-b-lg text-[8px] px-[15px] font-normal' : ''} py-4 flex bg-white items-center justify-center max-sm:w-[85px] w-[95px]`}>{obj.rift}</p>
+                                                    <p className={`text-center ${i === 5 ? 'rounded-b-lg text-[8px] px-[15px] font-normal' : ''} py-4 bg-white flex items-center justify-center max-sm:w-[85px] w-[95px]`}>{obj.taxscout}</p>
+                                                    <p className={`text-center ${i === 5 ? 'rounded-b-lg text-[8px] px-[15px] font-normal' : ''} py-4 bg-white flex items-center justify-center max-sm:w-[85px] w-[95px]`}>{obj.coconut}</p>
+                                                    <p className={`text-center ${i === 5 ? 'rounded-b-lg text-[8px] px-[15px] font-normal' : ''} bg-lightGreen flex items-center justify-center bg-[#56E3CB] max-sm:w-[85px] w-[95px]`}>{obj.pie}</p>
                                                 </div>
                                             ))}
                                         </div>
